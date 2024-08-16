@@ -17,51 +17,68 @@
 <body>
   <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-0 rounded-0">
-      <div class="container d-flex align-items-center cus-fs">
-        <a class="navbar-brand w-20 m-0" href="javascript:void(0)"><img class="w-75"
-            src="assets/images/amazon_logo1.png" alt="">.in</a>
+      <div class="container d-flex align-items-center cus-fs justify-content-between">
+        <a class="navbar-brand m-0" href="javascript:void(0)"><img class="w-75" src="assets/images/amazon_logo1.png"
+            alt="">.in</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="w-40">
+        <div class="collapse navbar-collapse justify-content-around" id="mynavbar">
+          <ul class="w-40 ps-0 mb-0">
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Delivery to Baddi 173205 <br>
-                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> <b>Update location</b>
+              <a class="nav-link align-items-center d-flex hover-white" href="javascript:void(0)">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <span class="d-inline-block ms-2">
+                  <span class="d-inline-block">Delivery to Alex</span><br>
+                  <strong class="d-inline-block">Baddi 173205</strong>
+                </span>
               </a>
             </li>
           </ul>
-          <form class="d-flex w-80">
-            <div class="position-reletive w-100 ms-2">
-              <input class="form-control w-100" type="text" placeholder="Search">
-              <button class="position-absolute icon-bg btn-primary" style="background-color: #ffffb7;"><i
-                  class="fa-solid fa-magnifying-glass fa-rotate-by"
-                  style="color: #000000; background-color: #ffffb7; --fa-rotate-angle: 1deg;""></i></button>
-            </div>
-          </form>
-          <div class=" d-flex justify-content-around ">
-                  <div class="ms-2 me-4">
-                    <a class="nav-link" href="javascript:void(0)">
-                      <i class="fa-solid fa-flag"></i> EN</a>
-                    </div>
-                  <div class="me-4">
-                    <a class="nav-link" href="javascript:void(0)">
-                      Hello, sign in <br>
-                      <b>Account & Lists</b>
-                  </div>
-                  <div class="me-4">
-                    <a class="nav-link" href="javascript:void(0)">
-                      Return <br>
-                      <b>& Orders</b>
-                    </a>
-                  </div>
-                  <div class="">
-                    <a class="nav-link" href="javascript:void(0)">
-                      <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Cart
-                    </a>
-                  </div>
 
+          <div class="position-reletive w-65 ms-2">
+            <div class="input-group">
+              <span class="input-group-text p-0" id="basic-addon1">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>All</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </span>
+              <input type="text" class="form-control" placeholder="Search Amazon.in" aria-label="Search Amazon.in"
+                aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2">
+                <i class="fa-solid fa-magnifying-glass fa-rotate-by"></i>
+              </span>
             </div>
+          </div>
+
+          <div class=" d-flex justify-content-around ">
+            <div class="ms-2 me-4">
+              <a class="nav-link hover-white" href="javascript:void(0)">
+                <span class="icp-nav-flag"></span> EN
+              </a>
+            </div>
+            <div class="me-4">
+              <a class="nav-link hover-white" href="javascript:void(0)">
+                Hello, sign in <br>
+                <b>Account & Lists</b>
+            </div>
+            <div class="me-4">
+              <a class="nav-link hover-white" href="javascript:void(0)">
+                Return <br>
+                <b>& Orders</b>
+              </a>
+            </div>
+            <div class="align-self-end">
+              <a class="nav-link d-flex align-items-baseline hover-white" href="javascript:void(0)">
+                <span class="nav-cart-icon nav-sprite"></span>
+                <span class="ms-1">Cart</span>
+              </a>
+            </div>
+
+          </div>
         </div>
       </div>
     </nav>
@@ -109,10 +126,7 @@
       </div>
 
     </nav>
-
   </div>
-
-
 
   <div class="promo-slider position-reletive h-100 overflow-auto">
 
@@ -345,6 +359,7 @@
       <p class="mt-3">See more</p>
     </div>
   </div>
+
   <div class="promo-slider w-100">
     <div id="carouselExampleControls1" class=" bg-white carousel slide  m-4 p-3" data-ride="carousel">
       <h2>Today Deals </h2> <span>See All Deals</span>
@@ -626,17 +641,12 @@
     </div>
   </div>
 
-
-
-
   <script>
     var myCarouse = document.querySelector('#carouselExampleControls1');
     new bootstrap.Carousel(myCarouse);
     var myCarousel = document.querySelector('#carouselExampleControls2');
     new bootstrap.Carousel(myCarousel);
   </script>
-
-
 </body>
 
 </html>

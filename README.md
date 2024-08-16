@@ -7,15 +7,10 @@ This is HTML, CSS and Web Designing.
 
 ## Key Points
 1. CSS
-2. Font Awesome
-3. 
-4. 
-5. 
+2. Font Awesome 
 
 # Live Url
 https://narenderrajput.github.io/flipkart_clone/
-
-[View Demo on youtube](https://youtu.be/0upIxqAJieU)
 
 
 # Screenshot

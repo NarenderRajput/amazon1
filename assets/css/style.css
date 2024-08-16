@@ -1,4 +1,9 @@
-h1,h2,h3,h4,p,body {
+h1,
+h2,
+h3,
+h4,
+p,
+body {
     padding: 0;
     margin: 0;
 }
@@ -15,12 +20,15 @@ body {
     box-sizing: border-box;
 }
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
     margin-top: -170px;
 }
 
 .nav-link {
-	color: white;
+    color: white;
 }
 
 .h-100 {
@@ -28,7 +36,7 @@ body {
 }
 
 .top-80 {
-    top : 80%;
+    top: 80%;
 }
 
 .width-32 {
@@ -66,8 +74,8 @@ body {
 }
 
 .icon-bg {
-	right: 25.9%;
-	top: 12;
+    right: 25.9%;
+    top: 12;
     font-size: 1.5rem;
     padding: 5px;
 }
@@ -97,17 +105,44 @@ body {
     width: 12%;
 }
 
+.navbar-brand {
+    width: 170px;
+}
+
 .container {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 992px) {
-
-
-
-
-
+a.hover-white:hover, a.hover-white:focus, a.hover-white:active {
+    color: white;
 }
+
+.w-65 {
+    width: 65%;
+}
+
+.icp-nav-flag {
+    width: 24px;
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 3px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png);
+    background-position: 0 166px;
+}
+
+.nav-cart-icon {
+    display: flex;
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png);
+    background-repeat: repeat-x;
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
+}
+
+@media only screen and (max-width: 992px) {}
 
 @media only screen and (max-width: 768px) {
 
